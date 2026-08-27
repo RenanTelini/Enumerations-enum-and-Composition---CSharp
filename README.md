@@ -35,3 +35,29 @@ Enter month and year to calculate income (MM/YYYY): <strong>08/2018</strong><br>
 Name: Alex<br>
 Department: Design<br>
 Income for 08/2018: 3000.00
+
+### <ins>Exercise02</ins>
+
+#### Manually instantiate the objects shown below and display them in the terminal, as demonstrated in the example.
+
+#### UML:
+
+<img src="Images\UML Exercise02.png" alt= "UML Exercise02">
+
+#### Example:
+
+```
+Traveling to New Zeland
+12 Likes - 21/06/2018 13:05:44
+I'm going to visit this wonderful country!
+Comments:
+Have a nice trip!
+Wow that's awesome!
+
+Good night guys
+5 Likes - 28/07/2018 23:14:19
+See you tomorrow
+Comments:
+Good night
+May the Force be with you
+```
