@@ -61,3 +61,37 @@ Comments:
 Good night
 May the Force be with you
 ```
+
+### <ins>Exercise03</ins>
+
+#### Read the data for an order containing N items (N provided by the user). Then, display a summary of the order as shown in the example. Note: the order timestamp must be the system time: DateTime.Now.
+
+#### UML:
+<img src="Images\UML Exercise03.png" alt="UML Exercise03">
+
+#### Example:
+
+Enter cliente data:<br>
+Name: <strong>Alex Green</strong><br>
+Email: <strong>alex@gmail.com</strong><br>
+Birth date (DD/MM/YYYY): <strong>15/03/1985</strong><br>
+Enter order data:<br>
+Status: <strong>Processing</strong><br>
+How many items to this order? <strong>2</strong><br>
+Enter #1 item data:<br>
+Product name: <strong>TV</strong><br>
+Product price: <strong>1000.00</strong><br>
+Quantity: <strong>1</strong><br>
+Enter #2 item data:<br>
+Product name: <strong>Mouse</strong><br>
+Product price: <strong>40.00</strong><br>
+Quantity: <strong>2</strong><br>
+
+ORDER SUMMARY:<br>
+Order moment: 20/04/2018 11:25:09<br>
+Order status: Processing<br>
+Client: Alex Green (15/03/1985) - alex@gmail.com<br>
+Order items:<br>
+TV, $1000.00, Quantity: 1, Subtotal: $1000.00<br>
+Mouse, $40.00, Quantity: 2, Subtotal: $80.00<br>
+Total price: $1080.00
