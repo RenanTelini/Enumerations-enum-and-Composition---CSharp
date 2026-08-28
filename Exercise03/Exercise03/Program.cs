@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text;
-using Exercise03.Entities;
+﻿using Exercise03.Entities;
 using System.Globalization;
 using Exercise03.Entities.Enum;
 

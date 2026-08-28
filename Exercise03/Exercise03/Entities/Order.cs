@@ -52,12 +52,12 @@ namespace Exercise03.Entities
             sb.AppendLine("Client: " + Client);
             sb.AppendLine("Order itens:");
 
-            foreach(OrderItem item in OrderItem) //USAR VARIAVEL DA CLASSE "OrderItem"
+            foreach(OrderItem item in OrderItem)
             {
                 sb.AppendLine(item.ToString());
             }
 
-            sb.Append("Total price: $" + Total().ToString("F2", CultureInfo.InvariantCulture)); //USAR MÉTODO Total() DA CLASSE  "Order"
+            sb.Append("Total price: $" + Total().ToString("F2", CultureInfo.InvariantCulture));
 
             return sb.ToString();
         }
